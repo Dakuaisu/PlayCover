@@ -10,7 +10,7 @@ class InstalViewModel: ObservableObject {
     static let shared = InstalViewModel()
     
     @Published var makeFullscreen : Bool = false
-    @Published var fixLogin : Bool = false
+    @Published var fixLogin : Bool = true
     @Published var errorMessage : String = ""
     @Published var useAlternativeWay : Bool = false
     @Published var exportForSideloadly : Bool = false
